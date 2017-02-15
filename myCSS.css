@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    color: #C0C0C0;
+    font-size: 40px;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.textCenter{
+    text-align:center;
+}
+
+table{
+    display:block;
+    border-collapse:collapse;
+    border-style:solid;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+}
+
+tr, th, td{
+    border-style:solid;
+}
+
+.textDecor{
+    text-align: center;
+    font-style:italics;
+}
+
+/*
+(selects the first tr in thead)
+thead > tr:first-child{
+    
+}*/
