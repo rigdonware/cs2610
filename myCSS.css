@@ -1,10 +1,37 @@
 body{
-    background-color: black;
-    color: #C0C0C0;
+    background-color: transparent;
+    /*background-image: url("http://www.static.webstarts.com/library/images/librarycore/circuitBoard.jpg*/
+    background-image: url(http://www.wallpaper-gallery.net/images/background-image/background-image-17.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
     font-size: 40px;
+    font-family: fantasy;
     margin-top: 5%;
     margin-right: 15%;
     margin-left: 15%;
+
+}
+
+h1, h2{
+    text-align:center;
+    animation-name: slideIn;
+    animation-duration: 1s;
+}
+
+@keyframes slideIn{
+    0% {
+        margin-left: 100%
+    }
+    
+    100%{
+        margin-left: 0%;
+    }
+    
+}
+
+.test{
+    font-weight: bolder;
 }
 
 .textCenter{
@@ -12,12 +39,18 @@ body{
 }
 
 table{
-    display:block;
+    vertical-align: middle;
     border-collapse:collapse;
     border-style:solid;
     margin-right: auto;
     margin-left: auto;
     font-size: 25px;
+}
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 tr, th, td{
@@ -26,8 +59,24 @@ tr, th, td{
 
 .textDecor{
     text-align: center;
-    font-style:italics;
 }
+
+a:visited{
+    color: purple;
+}
+
+a:hover{
+    color: white;
+}
+
+tr:first-of-type{
+    background-color:black;
+}
+
+.first td:nth-child(3n + 1){
+    background-color: black;
+}
+
 
 /*
 (selects the first tr in thead)
